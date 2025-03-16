@@ -91,3 +91,49 @@ for row in matrix:
     for item in row:
         print(item)
 
+#List Methods
+
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20) # appends an item in the end of the list
+print(numbers)
+
+numbers.insert(0, 13) #inserts  an item in a specific position in the list
+print(numbers)
+
+numbers.remove(13)
+print(numbers)
+
+numbers.clear()
+print(numbers)
+#---------------
+numbers = [5, 2, 1, 7, 4]
+numbers.pop() #remove the last item in the list
+print(numbers)
+
+print(numbers.index(5)) #looks up for the existence of an item in the list
+
+print(50 in numbers) #looks up for the existence of an item in the list - it gives a Boolean
+
+numbers = [5, 2, 1, 5, 7, 4]
+print(numbers.count(5)) # It tells us how many of the same items are in the list
+
+numbers.sort() #None is an object in python that represents the absense of a value
+print(numbers) #The list is sorted in ascending order
+
+numbers.reverse() #None is an object in python that represents the absense of a value
+print(numbers) #The list is sorted in descending order
+
+numbers2 = numbers.copy() #It makes a copy of our list
+numbers.append(10)
+print(numbers2)
+
+#Excercise
+# Write a program to remove the duplicates in a list.
+
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
