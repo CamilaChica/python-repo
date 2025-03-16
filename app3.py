@@ -21,3 +21,13 @@ for price in prices:
     total += price
 print(f"Total: {total}")
 
+#Nested Loops
+#(x, y) - (0, 0) - (0, 1) - (0, 0) - (0, 2)
+
+for x in range(4):
+    for y in range(3):
+        print(f'({x}, {y})')
+
+for x in range(3):
+    for y in range(4):
+        print(f'({x}, {y})')
