@@ -31,3 +31,24 @@ for x in range(4):
 for x in range(3):
     for y in range(4):
         print(f'({x}, {y})')
+
+
+#Challenge
+numbers = [5, 2, 5, 2, 2]
+
+for x_count in numbers:
+    print('x' * x_count)
+
+
+numbers = [2, 2, 2, 2, 5]
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+
+#Lists
+
+
+
+
