@@ -200,4 +200,13 @@ for word in words:
     output += emojis.get(word, word) + " "
 print(output)
 
+#Functions
+#Container of a few lines of code that performs a specific task
+def greet_user(): #it defines the function
+    print('Hi there!')
+    print('Welcome aboard.')
+
+print("Starts")
+greet_user() #it calls the function
+print("Finish")
 
