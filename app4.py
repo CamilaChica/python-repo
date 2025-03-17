@@ -49,3 +49,24 @@ def emoji_converter(message):
 message = input("> ")
 print(emoji_converter(message))
 
+
+#Exceptions
+#An exception is a kind of error that crashes our programm.
+#age = int(input('Age: '))
+#print(age)
+#If the user inputs a value different than an int. It gives us a ValueError. Exit code will not be '0'.
+#How to handle it:
+try:
+    age = int(input('Age: '))
+    income = 20000
+    risk = income / age
+    print(age)
+except ZeroDivisionError:
+    print('Age cannot be 0.')
+except ValueError:
+    print('Invalid Value')
+
+
+
+
+
