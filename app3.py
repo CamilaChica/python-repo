@@ -137,3 +137,14 @@ for number in numbers:
     if number not in uniques:
         uniques.append(number)
 print(uniques)
+
+#Tuples
+#They're like lists, but unlike lists, you can not modify them or remove existing items. they're unmutable.
+#You can add information only, not change it.
+numbers = (1, 2, 3) #We use parenthesis for Tuples
+#numbers[0] = 10 #Type Error
+print(numbers[0])
+
+
+
+
