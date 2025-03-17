@@ -210,3 +210,16 @@ print("Starts")
 greet_user() #it calls the function
 print("Finish")
 
+
+#Parameters
+def greet_user(first_name, last_name): # Parameter 'name' has been added
+    print(f'Hi {first_name} {last_name}!')
+    print('Welcome aboard.')
+
+print("Starts")
+greet_user("John", "Smith") #Argument 'John': We are passing the value 'John' when calling this function
+greet_user("Mary", "Woods")
+print("Finish")
+
+
+
