@@ -74,13 +74,23 @@ print("Sky is blue")
 #Classes
 # We can use classes to define new types to model real concepts.
 # NAme convention: CamilaChica (Capitalize each word)
-class Point:
+class Point: #We just defined a new type
     def move(self):
         print("move")
     def draw(self):
         print("draw")
 
+#Objects
+#Instance of a class
+point1 = Point() #We store the object in a variable
+point1.x = 10 #We give an attribute that we can set anywhere in our programs
+point1.y = 20
+point1.draw()  #Draw Method is printed in the terminal. When we use the '. operator' we can use the methods that we previously defined and many others.
 
+#Let's create another object. Each object is an instance of a Class
+point2 = Point()
+point2.x = 1
+print(point2.x)
 
 
 
