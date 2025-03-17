@@ -71,4 +71,17 @@ except ValueError:
 #This is a comment and it should be used to explain: (Why - How)
 print("Sky is blue")
 
+#Classes
+# We can use classes to define new types to model real concepts.
+# NAme convention: CamilaChica (Capitalize each word)
+class Point:
+    def move(self):
+        print("move")
+    def draw(self):
+        print("draw")
+
+
+
+
+
 
