@@ -220,6 +220,8 @@ print("Starts")
 greet_user("John", "Smith") #Argument 'John': We are passing the value 'John' when calling this function
 greet_user("Mary", "Woods")
 print("Finish")
+#When we add parameters, we should always supply arguments, otherwise will get an error.
+
 
 
 
