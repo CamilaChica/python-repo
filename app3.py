@@ -145,6 +145,12 @@ numbers = (1, 2, 3) #We use parenthesis for Tuples
 #numbers[0] = 10 #Type Error
 print(numbers[0])
 
+#Unpacking
+coordinates = (1, 2, 3)
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates[2]
 
-
+x, y, z = coordinates #We're unpacking the variables into this values
+# x * y * z
 
