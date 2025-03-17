@@ -154,3 +154,39 @@ coordinates = (1, 2, 3)
 x, y, z = coordinates #We're unpacking the variables into this values
 # x * y * z
 
+#Diccionaries
+customer = {
+"name": "John Smith",
+"age": 30,
+"is_verified": True
+}
+print(customer["name"])
+print(customer.get("birthdate", "Jan 1 1980")) #asigns 'Jan 1 1980' to 'birthdate'
+customer["name"] = "Jack Smith" #updates the 'name' value to JAck Smith
+
+print(customer["name"])
+
+customer["birthdate"] = "Jan 1 1980" #We can add another key
+print(customer["birthdate"])
+
+#Excercise
+phone = input("Phone: ")
+digits_mapping = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six",
+    "7": "Seven",
+    "8": "Eight",
+    "9": "Nine",
+    "0": "Zero",
+}
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
+
+
+
