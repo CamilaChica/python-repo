@@ -66,7 +66,9 @@ except ZeroDivisionError:
 except ValueError:
     print('Invalid Value')
 
+#Comments
 
-
+#This is a comment and it should be used to explain: (Why - How)
+print("Sky is blue")
 
 
