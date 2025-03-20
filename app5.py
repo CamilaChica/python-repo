@@ -1,4 +1,7 @@
 #Constructors
+from filecmp import DEFAULT_IGNORES
+
+
 class Point:
    # def __init__(self): # We just added two extra parameters a constructor.
     def __init__(self, x, y): #We just added parameters to our Constructor
@@ -28,4 +31,25 @@ john.talk()
 
 bob = Person("Bob Smith")
 bob.talk()
+
+#Inheritance
+class Mammal:
+    def walk(self):
+        print("walk")
+class Dog(Mammal):
+    def bark(self):
+        print("bark")
+
+
+class Cat(Mammal):
+    def be_annoying(self):
+        print("annoying")
+
+dog1 = Dog()
+dog1.walk()
+cat1 = Cat()
+cat1.be_annoying()
+cat1.walk()
+
+
 
